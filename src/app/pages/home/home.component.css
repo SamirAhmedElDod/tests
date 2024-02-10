@@ -1,0 +1,27 @@
+.featured-section {
+  padding-left: 130px;
+  padding-right: 130px;
+  padding-bottom: 130px;
+
+  background-color: var(--primary-color);
+}
+
+
+@media (max-width: 766px) {
+  app-post-card {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 1000px) {
+  .featured-section {
+    padding: 0 30px;
+  }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1199px) {
+  app-post-card {
+    display: flex;
+    justify-content: center;
+  }
+}

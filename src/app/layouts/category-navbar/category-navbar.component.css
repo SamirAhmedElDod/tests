@@ -1,0 +1,57 @@
+nav {
+  margin-top: 101px;
+  height: 90px;
+  /* background-color: var(--navbar-footer-color); */
+  background-color: black;
+}
+.ancor_navbar_Custom {
+  font-size: 15px;
+  font-weight: bold;
+  /* background-color: #000; */
+  color: var(--primary-color);
+  border-radius: 12px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.nav-item:hover {
+  background-color: #fff !important;
+  transition: all 0.75s;
+  border-radius: 12px;
+}
+
+
+/* Media Query */
+
+@media (max-width: 1400px) {   /* From Phone Size To 1000px*/
+  .ancor_navbar_Custom {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 991px)  { /*from phone To 991px for bootstrap header*/
+  /* nav {
+    /* height: 0px; */
+    /* padding-top: 60px;
+    margin-bottom: 60px;
+  } */
+
+  .custom_Nav_mediaQuery {
+    gap: 5px !important;
+  }
+  .container {
+    background-color: #000;
+  }
+  .navbar{
+    height: auto ;
+
+  }
+  .navbar-toggler {
+    position: relative;
+    top: 0;
+    margin-bottom: 10px;
+  }
+}
+.myactive{
+  background-color: white !important;
+}

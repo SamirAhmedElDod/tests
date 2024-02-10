@@ -1,0 +1,21 @@
+.bk-second-color {
+  background: linear-gradient(to right, #8654d2 30% , #ffffff );
+}
+.bk-color {
+  /* background-color: rgba(0, 0, 0, 0.486); */
+  /* background: linear-gradient(to right, #ffffff 20%, #8654d2 80%); */
+  /* background-color: rgba(255, 255, 255, 0.432); */
+  border-radius: 10px;
+}
+p, h1 {
+  color: #000;
+}
+.custom-button {
+  background-color: #000 !important;
+  color:  white ;
+  font-size: 16px;
+}
+.custom-button:focus {
+  border: #8654d2 1px solid !important;
+  color: #8654d2 !important;
+}

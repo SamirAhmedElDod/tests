@@ -1,0 +1,69 @@
+/* You can add global styles to this file, and also import other style files */
+/* #8654d2
+#6a42a8
+#9379dd
+#543e87
+
+#a78be0
+#6d3896
+#d0aef1
+#52346c
+
+
+لون النص: #FFFFFF (أبيض) لتباين واضح مع الخلفية الداكنة.
+لون النص: #000000 (أسود) لتباين قوي ووضوح مع الخلفية الفاتحة.
+*/
+
+/* بالطبع، إليك أكواد الألوان للاقتراحات التي قدمتها:
+
+1. خلفية بيضاء: #FFFFFF
+2. خلفية رمادية فاتحة: #F5F5F5
+3. خلفية زرقاء فاتحة: #E6E6FA
+4. خلفية بلون اللافندر: #E6E6FA */
+
+/* Google Fonts With Import */
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&family=Roboto&display=swap');
+
+/* Usage Of Google Fonts  */
+/*
+font-family: 'Protest Riot', sans-serif;  ===> Gamed
+font-family: 'Roboto', sans-serif;   ===> Root
+*/
+:root {
+  --primary-color: #8654d2;
+  --secondary-color: #9379dd;
+  --body-text-color: #000000;
+  --navbar-footer-color: #ffffff
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  color: var(--body-text-color);
+  background-color: #f5f5f5;
+}
+
+/* ******************************** */
+
+/* Scroll Bar  */
+
+/* تخصيص شريط التمرير ومقبض التمرير لمتصفحات WebKit */
+::-webkit-scrollbar {
+  width: 8px; /* عرض شريط التمرير */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #000; /* لون خلفية شريط التمرير */
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color); /* لون مقبض شريط التمرير */
+}
+
+/* تخصيص شريط التمرير ومقبض التمرير لمتصفح Firefox */
+/* ملاحظة: يمكن استخدام تخصيص شريط التمرير ومقبض التمرير لمتصفح Firefox فقط */
+* {
+  scrollbar-color: var(--primary-color) #000; /* لون مقبض شريط التمرير ولون خلفية شريط التمرير */
+  scrollbar-width: thin; /* عرض شريط التمرير */
+}
